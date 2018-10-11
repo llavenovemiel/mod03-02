@@ -16,40 +16,40 @@
   *
   */
 
-header#mainHeader {
+header#main-header {
  	background-color: #EA9828;
  	min-height: 10vh;
  	font-family: 'Work Sans', sans-serif;
  }
 
-header#mainHeader div {
+header#main-header div {
  	height: 100%;
  	width: 50%;
  	float: left;
  }
 
-header#mainHeader > div > h2 {
+header#main-header > div > h2 {
  	line-height: 10vh;
  	margin-left: 15px;
  }
 
- header#mainHeader > div > h2 > a {
+ header#main-header > div > h2 > a {
   color: black;
   text-decoration: none;
  }
 
-header#mainHeader > div:last-child > ul {
+header#main-header > div:last-child > ul {
  	list-style: none;
  	text-align: right;
  }
 
-header#mainHeader > div:last-child > ul > li {
+header#main-header > div:last-child > ul > li {
   	display: inline;
   	line-height: 10vh;
   	margin-right: 15px;
   }
 
-header#mainHeader > div:last-child > ul > li > a {
+header#main-header > div:last-child > ul > li > a {
 	color: black;
 	text-decoration: none;
 }
@@ -59,7 +59,7 @@ body {
  	font-family: 'Oswald', sans-serif;
  }
 
-main#wrapper {
+main#container {
  	background-color: #E9E9E9;
  	width: 80%;
  	margin: 0 auto;
@@ -67,13 +67,13 @@ main#wrapper {
  	padding: 25px;
  }
 
-main#wrapper > h1 {
+main#container > h1 {
  	font-family: 'Oswald', sans-serif;
  	text-align: center;
   padding-bottom: 10px;
  }
 
-main#wrapper > img {
+main#container > img {
   width: 100%;
   height: auto;
   border-radius: 10px;
@@ -82,24 +82,24 @@ main#wrapper > img {
   display: block;
 }
 
-main#wrapper > ul {
+main#container > ul {
   list-style: none;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
 
-main#wrapper > ul > li {
+main#container > ul > li {
   display: inline-block;
   margin-right: 15px;
   padding: 15px;
 }
 
-main#wrapper > ul > li > a {
+main#container > ul > li > a {
   text-decoration: none;
   color: black;
 }
 
-footer#mainFooter {
+footer#main-footer {
  	background-color: #EA9828;
  	min-height: 5vh;
  	padding: 15px;
